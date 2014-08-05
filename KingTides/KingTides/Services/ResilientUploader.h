@@ -8,6 +8,5 @@
 @interface ResilientUploader : NSObject
 + (ResilientUploader *)sharedUploader;
 - (void)save:(Upload *)upload;
-
 - (void)queueSavedUploads;
 @end

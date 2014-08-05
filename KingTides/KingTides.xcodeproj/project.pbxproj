@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		095C683A197FAB5F00CBDDA7 /* TideInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 095C6839197FAB5F00CBDDA7 /* TideInfo.m */; };
 		1B09B32F07FA468492CDCDF7 /* libPods-KingTidesTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 275F62F30E5446AF947144A0 /* libPods-KingTidesTests.a */; };
 		2DC180043D587F784F8B1A1C /* KingTidesService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC18A5E77B0EA614F919963 /* KingTidesService.m */; };
 		2DC18084ECCE63BEEE83D587 /* KingTidesService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC18A5E77B0EA614F919963 /* KingTidesService.m */; };
@@ -67,6 +68,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		095C6838197FAB5F00CBDDA7 /* TideInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TideInfo.h; path = KingTides/Services/TideInfo.h; sourceTree = SOURCE_ROOT; };
+		095C6839197FAB5F00CBDDA7 /* TideInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TideInfo.m; path = KingTides/Services/TideInfo.m; sourceTree = SOURCE_ROOT; };
 		0FDB6D2BF9F648068EEA3B25 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = ../Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		275F62F30E5446AF947144A0 /* libPods-KingTidesTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KingTidesTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DC18025C4037A9A5198B630 /* ResilientUploader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ResilientUploader.m; path = Services/ResilientUploader.m; sourceTree = "<group>"; };
@@ -226,6 +229,8 @@
 				2DC181CB2249AA67FBDDEA84 /* Categories */,
 				2DC18A5E77B0EA614F919963 /* KingTidesService.m */,
 				2DC183B32D082F337564C64C /* KingTidesService.h */,
+				095C6838197FAB5F00CBDDA7 /* TideInfo.h */,
+				095C6839197FAB5F00CBDDA7 /* TideInfo.m */,
 				2DC18B6ED14533AEF844726D /* ResilientUploader.h */,
 				2DC18025C4037A9A5198B630 /* ResilientUploader.m */,
 				2DC180A910CBF1158381E140 /* UploadOperation.h */,
@@ -507,6 +512,7 @@
 				A1C78E2A1852D058007E748D /* main.m in Sources */,
 				2DC18D303FAE81E5AD010009 /* UIImage+FixRotation.m in Sources */,
 				A1C78E911853BC2B007E748D /* KingTideLocationViewController.m in Sources */,
+				095C683A197FAB5F00CBDDA7 /* TideInfo.m in Sources */,
 				A1C78E651852E9AB007E748D /* PhotoDetailsViewController.m in Sources */,
 				2DC18084ECCE63BEEE83D587 /* KingTidesService.m in Sources */,
 				2DC182EC8347C62B6DACFF98 /* ResilientUploader.m in Sources */,

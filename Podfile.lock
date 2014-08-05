@@ -27,6 +27,7 @@ PODS:
   - Mantle (1.5):
     - Mantle/extobjc
   - Mantle/extobjc (1.5)
+  - MBProgressHUD (0.8)
   - NoticeView (3.0.7)
   - TestFlightSDK (3.0.2)
   - Tweaks (1.1.0)
@@ -36,6 +37,7 @@ DEPENDENCIES:
   - GoogleAnalytics-iOS-SDK
   - Kiwi/XCTest (from `https://github.com/allending/Kiwi`)
   - Mantle
+  - MBProgressHUD (~> 0.8)
   - NoticeView
   - TestFlightSDK
   - Tweaks
@@ -49,6 +51,7 @@ SPEC CHECKSUMS:
   GoogleAnalytics-iOS-SDK: bb285d8eef15a682f1b82971becd0d22edd0e53b
   Kiwi: 772d965b130a0768c867363baa4d2639473254e8
   Mantle: c67a7e45e14196ed42b2a7cbb98ff6a9920e6b92
+  MBProgressHUD: c356980b0cd097f19acec959b49dca5eb8ec31be
   NoticeView: 357545814931eb92428de54449f405f91c84a1b8
   TestFlightSDK: 0c24c533748d0d84bfe7a3cb6036fa79124d84ee
   Tweaks: 05b197d4a1247288f576587546bc1932189d8c98

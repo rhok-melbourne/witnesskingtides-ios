@@ -7,7 +7,7 @@
 @property (nonatomic, strong) IBOutlet UILabel *locationNameLabel;
 @property (nonatomic, strong) IBOutlet UITextView *tideDetailsTextView;
 
-@property (nonatomic, strong) NSString *locationName;
-@property (nonatomic, strong) NSString *description;
+@property (nonatomic, copy) NSString *locationName;
+@property (nonatomic, copy) NSString *description;
 
 @end

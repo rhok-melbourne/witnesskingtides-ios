@@ -66,7 +66,8 @@
 }
 
 #pragma mark - UploadOperationProtocol methods
-- (void)uploadSuccessful:(UploadOperation *)operation upload:(Upload *)upload {
+- (void)uploadSuccessful:(UploadOperation *)operation upload:(Upload *)upload
+{
   [[NSNotificationCenter defaultCenter] postNotificationName:kUploadedSuccessfully object:self userInfo:@{@"upload" : upload}];
 }
 
